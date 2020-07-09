@@ -35,7 +35,6 @@ apt install -y \
   sudo \
   unrar \
   unzip \
-  vi \
   vim \
   wget \
   zip \
