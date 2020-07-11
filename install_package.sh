@@ -19,19 +19,19 @@ BLANCLAIR="\\033[1;08m"
 JAUNE="\\033[1;33m"
 CYAN="\\033[1;36m"
 echo -e "$ROUGE""MERCI D'UTILISER CE SCRIPT" "$BLANC"
+apt update -y \
+apt upgrade -y \
 apt install -y \
-  apache2 \
-  apache2-utils \
-  build-essential \
   curl \
-  ffmpeg \
   git \
   htop \
+  iftop \
   nano \
+  nload \
   net-tools \
   rar \
   screen \
-  software-properties-common \
+  speedtest-cli \
   sudo \
   unrar \
   unzip \
