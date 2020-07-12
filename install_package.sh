@@ -19,8 +19,6 @@ BLANCLAIR="\\033[1;08m"
 JAUNE="\\033[1;33m"
 CYAN="\\033[1;36m"
 echo -e "$ROUGE""MERCI D'UTILISER CE SCRIPT" "$BLANC"
-apt update -y \
-apt upgrade -y \
 apt install -y \
   curl \
   git \
